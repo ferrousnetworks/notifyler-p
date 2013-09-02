@@ -1,0 +1,30 @@
+!!!
+html
+	head
+		title="Notifyler by Ferrous"
+		script(src='/socket.io/socket.io.js')
+		script(src='/zepto.js')
+		script(src='/chart.js')
+		script(src='/app.js')
+		link(href='/bootstrap.css', rel='stylesheet', type='text/css')
+		link(href='/style.css', rel='stylesheet', type='text/css')
+	body
+		.page-wrap
+			nav.navbar.navbar-default.navbar-static-top
+				.navbar-header
+					a.navbar-brand Notifyler
+			#graph
+			#content.container
+				#messagearea
+				.form-horizontal.col-md-6.col-md-offset-3
+					.form-group
+						label.col-md-4 Passkey
+						.col-md-8
+							input#password(type='password', class='form-control', placehold='Passkey')
+					.form-group
+						.col-md-8.col-md-offset-4
+							button#logsubmit(type='submit', class='btn btn-default') Login
+		.site-footer
+			| Notifyler by 
+			a(href='//ferrousnetworks.com') FerrousNeworks
+			| . 100% Powered by Javascript.

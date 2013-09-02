@@ -1,0 +1,31 @@
+* {
+	margin: 0;
+}
+html, body {
+	height: 100%;
+}
+#content td {
+	vertical-align:middle;
+}
+.page-wrap {
+	min-height: 100%;
+	/* equal to footer height */
+	margin-bottom: -50px; 
+}
+.page-wrap:after {
+	content: "";
+	display: block;
+}
+.site-footer, .page-wrap:after {
+	height: 50px; 
+}
+.site-footer {
+	background:#f8f8f8;
+	border-top:1px solid #e7e7e7;
+	line-height:50px;
+	text-align:center;
+	color:#aaa;
+}
+.site-footer a {
+	color:#666;
+}

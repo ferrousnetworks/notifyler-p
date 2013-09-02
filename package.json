@@ -1,0 +1,24 @@
+{
+  "name": "notifyler",
+  "version": "0.0.2",
+  "author": "Connor Peet <connor@connorpeet.com>",
+  "description": "Client for notification sending",
+  "scripts": {
+    "start": "node ./notifyler.js"
+  },
+  "dependencies" : {
+    "express"    : "3.*",
+    "hiredis"    : "0.1.15",
+    "redis"      : "0.8.*",
+    "emailjs"    : "0.3.*",
+    "jade"       : "0.35.*",
+    "socket.io"  : "0.9.*",
+    "twilio"     : "1.1.*",
+    "node-twitter-api" : "1.1.*",
+    "soap" : "0.2.*"
+  },
+  "analyze": false,
+  "engines": {
+    "node": ">=0.6"
+  }
+}
